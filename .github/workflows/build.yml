@@ -56,7 +56,7 @@ jobs:
           arduino-cli compile \
             --fqbn esp32:esp32:esp32 \
             --output-dir ./build \
-            ./ardu.ino
+            ./BLE-DFPlayer.ino
       
       # 7. Create or Update the "latest" Release
       # This step uses the GitHub CLI (gh) which is pre-installed.
